@@ -1,7 +1,7 @@
 component_name=catalogue
 source common.sh
 
-cp mongo.repo /etc/yum.repos.d/mongo.repo
+cp ${pwd}/mongo.repo /etc/yum.repos.d/mongo.repo
 
 nodejs
 systemd_setup

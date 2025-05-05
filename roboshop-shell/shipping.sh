@@ -1,5 +1,5 @@
 component_name=shipping
-source=common.sh
+source common.sh
 java
 
 dnf install mysql -y 
